@@ -2,47 +2,41 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal Colaborador</title>
 </head>
-<body style="margin: 0; font-family: sans-serif; background-color: #E7C196;">
+<body style="margin: 0; padding: 0; font-family: sans-serif; background-color: #E7C196; padding-bottom: 50px;">
 
     <nav style="display: flex; justify-content: space-between; align-items: center; padding: 20px 5%; background-color: #382417; color: #E7C196;">
         <div style="font-weight: bold; font-size: 1.5rem;">LOGO</div>
-        <div style="display: flex; gap: 20px;">
-            <a href="#" style="color: #E7C196; text-decoration: none;">Nosotros</a>
-            <a href="#" style="color: #E7C196; text-decoration: none;">Servicios</a>
-            <a href="#" style="color: #E7C196; text-decoration: none;">Contacto</a>
+        <div style="display: flex; gap: 15px;">
+            <a href="#" style="background-color: #C57938; color: white; padding: 8px 16px; text-decoration: none; border-radius: 5px; font-weight: bold;">Nosotros</a>
+            <a href="#" style="background-color: #C57938; color: white; padding: 8px 16px; text-decoration: none; border-radius: 5px; font-weight: bold;">Servicios</a>
+            <a href="#" style="background-color: #C57938; color: white; padding: 8px 16px; text-decoration: none; border-radius: 5px; font-weight: bold;">Contacto</a>
         </div>
-        <div style="font-weight: bold; cursor: pointer;">LOGIN</div>
+        <div style="font-weight: bold; cursor: pointer; border: 2px solid #C57938; padding: 8px 16px; border-radius: 5px;">LOGIN</div>
     </nav>
 
-    <header style="display: flex; gap: 20px; padding: 40px 5%; background-color: #6D3C1C; color: white;">
-        <div style="flex: 1; padding: 20px; border: 2px solid #C57938; border-radius: 8px;">
+    <header style="display: flex; gap: 20px; padding: 40px 5% 80px 5%; background-color: #6D3C1C; color: white; position: relative;">
+        <div style="flex: 1; padding: 30px; border: 2px solid #C57938; border-radius: 8px;">
             <h2>Texto del banner</h2>
-            <p>Bienvenido al espacio exclusivo para nuestros colaboradores.</p>
         </div>
         <div style="flex: 1; display: flex; justify-content: center; align-items: center; border: 2px solid #C57938; border-radius: 8px; min-height: 200px;">
             Imagen del banner
         </div>
     </header>
 
-    <main style="padding: 40px 5%; display: flex; gap: 20px; align-items: flex-start;">
+    <main style="max-width: 90%; margin: -60px auto 0 auto; position: relative;">
         
-        <div style="width: 150px; height: 150px; background-color: #C57938; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-align: center; color: white; padding: 10px; font-weight: bold; border: 4px solid #382417;">
+        <div style="width: 120px; height: 120px; background-color: #C57938; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-align: center; color: white; font-weight: bold; border: 4px solid #382417; position: absolute; top: -60px; left: 20px; z-index: 10; box-shadow: 0 4px 10px rgba(0,0,0,0.3); font-size: 0.85rem;">
             Descuento por suscribirse
         </div>
 
-        <div style="flex: 1; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
-            <div style="background: #382417; color: #E7C196; padding: 30px; text-align: center; border-radius: 8px; border: 2px solid #C57938;">Gestión de tiempo</div>
-            <div style="background: #382417; color: #E7C196; padding: 30px; text-align: center; border-radius: 8px; border: 2px solid #C57938;">Nómina y beneficios</div>
-            <div style="background: #382417; color: #E7C196; padding: 30px; text-align: center; border-radius: 8px; border: 2px solid #C57938;">Capacitación</div>
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding-top: 80px;">
+            <div style="background: #382417; color: #E7C196; padding: 40px 20px; text-align: center; border: 2px solid #6D3C1C; border-radius: 8px; font-weight: bold; min-height: 150px; display: flex; align-items: center; justify-content: center;">Gestión de tiempo</div>
+            <div style="background: #382417; color: #E7C196; padding: 40px 20px; text-align: center; border: 2px solid #6D3C1C; border-radius: 8px; font-weight: bold; min-height: 150px; display: flex; align-items: center; justify-content: center;">Nómina y beneficios</div>
+            <div style="background: #382417; color: #E7C196; padding: 40px 20px; text-align: center; border: 2px solid #6D3C1C; border-radius: 8px; font-weight: bold; min-height: 150px; display: flex; align-items: center; justify-content: center;">Capacitación</div>
         </div>
     </main>
-
-    <footer style="background-color: #382417; color: #E7C196; padding: 20px; text-align: center;">
-        <p>Soporte: Mariana Cataño Rodriguez | Cel: 310457716 | <a href="mailto:marianarodriguez1509@gmail.com" style="color: #C57938;">marianarodriguez1509@gmail.com</a></p>
-    </footer>
 
 </body>
 </html>
