@@ -3,57 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>App Colaboradores | Portafolio de Servicios</title>
+    <title>Portal Colaborador</title>
 </head>
-<body style="font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333;">
+<body style="margin: 0; font-family: sans-serif; background-color: #E7C196;">
 
-    <header style="background-color: #333; color: #ff8c00; padding: 2rem; text-align: center; border-bottom: 4px solid #ff8c00;">
-        <h1 style="margin: 0; text-transform: uppercase; letter-spacing: 2px;">Portal del Colaborador</h1>
-        <p style="margin: 10px 0 0; color: #ccc;">Tu oficina en la palma de tu mano</p>
+    <nav style="display: flex; justify-content: space-between; align-items: center; padding: 20px 5%; background-color: #382417; color: #E7C196;">
+        <div style="font-weight: bold; font-size: 1.5rem;">LOGO</div>
+        <div style="display: flex; gap: 20px;">
+            <a href="#" style="color: #E7C196; text-decoration: none;">Nosotros</a>
+            <a href="#" style="color: #E7C196; text-decoration: none;">Servicios</a>
+            <a href="#" style="color: #E7C196; text-decoration: none;">Contacto</a>
+        </div>
+        <div style="font-weight: bold; cursor: pointer;">LOGIN</div>
+    </nav>
+
+    <header style="display: flex; gap: 20px; padding: 40px 5%; background-color: #6D3C1C; color: white;">
+        <div style="flex: 1; padding: 20px; border: 2px solid #C57938; border-radius: 8px;">
+            <h2>Texto del banner</h2>
+            <p>Bienvenido al espacio exclusivo para nuestros colaboradores.</p>
+        </div>
+        <div style="flex: 1; display: flex; justify-content: center; align-items: center; border: 2px solid #C57938; border-radius: 8px; min-height: 200px;">
+            Imagen del banner
+        </div>
     </header>
 
-    <main style="max-width: 1000px; margin: 2rem auto; padding: 0 1rem;">
+    <main style="padding: 40px 5%; display: flex; gap: 20px; align-items: flex-start;">
         
-        <h2 style="text-align: center; color: #333; margin-bottom: 2rem;">Nuestros Servicios</h2>
+        <div style="width: 150px; height: 150px; background-color: #C57938; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-align: center; color: white; padding: 10px; font-weight: bold; border: 4px solid #382417;">
+            Descuento por suscribirse
+        </div>
 
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
-            
-            <div style="background: white; padding: 1.5rem; border-radius: 8px; border-top: 5px solid #ff8c00; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                <h3 style="color: #333; margin-top: 0;">📅 Gestión de Tiempo</h3>
-                <p style="color: #666; font-size: 0.95rem;">Solicita vacaciones, registra tus horas de entrada/salida y consulta tu historial de asistencia.</p>
-                <a href="#" style="display: inline-block; margin-top: 15px; padding: 10px 20px; background-color: #ff8c00; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">Consultar</a>
-            </div>
-
-            <div style="background: white; padding: 1.5rem; border-radius: 8px; border-top: 5px solid #ff8c00; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                <h3 style="color: #333; margin-top: 0;">💰 Nómina y Beneficios</h3>
-                <p style="color: #666; font-size: 0.95rem;">Descarga tus desprendibles de pago, consulta el estado de tus prestaciones y beneficios.</p>
-                <a href="#" style="display: inline-block; margin-top: 15px; padding: 10px 20px; background-color: #ff8c00; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">Consultar</a>
-            </div>
-
-            <div style="background: white; padding: 1.5rem; border-radius: 8px; border-top: 5px solid #ff8c00; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                <h3 style="color: #333; margin-top: 0;">🎓 Capacitación</h3>
-                <p style="color: #666; font-size: 0.95rem;">Accede a nuestra biblioteca de cursos, sigue tu plan de desarrollo y obtén certificaciones.</p>
-                <a href="#" style="display: inline-block; margin-top: 15px; padding: 10px 20px; background-color: #ff8c00; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">Consultar</a>
-            </div>
-
-            <div style="background: white; padding: 1.5rem; border-radius: 8px; border-top: 5px solid #ff8c00; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                <h3 style="color: #333; margin-top: 0;">📢 Comunicaciones</h3>
-                <p style="color: #666; font-size: 0.95rem;">Mantente al tanto de las últimas noticias, eventos de la empresa y comunicados oficiales.</p>
-                <a href="#" style="display: inline-block; margin-top: 15px; padding: 10px 20px; background-color: #ff8c00; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">Consultar</a>
-            </div>
-
+        <div style="flex: 1; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
+            <div style="background: #382417; color: #E7C196; padding: 30px; text-align: center; border-radius: 8px; border: 2px solid #C57938;">Gestión de tiempo</div>
+            <div style="background: #382417; color: #E7C196; padding: 30px; text-align: center; border-radius: 8px; border: 2px solid #C57938;">Nómina y beneficios</div>
+            <div style="background: #382417; color: #E7C196; padding: 30px; text-align: center; border-radius: 8px; border: 2px solid #C57938;">Capacitación</div>
         </div>
     </main>
 
-    <section style="background-color: #e0e0e0; padding: 2rem; text-align: center; margin-top: 3rem;">
-        <h3 style="color: #333; margin-bottom: 1rem;">¿Necesitas ayuda? Contacta a soporte</h3>
-        <p style="margin: 5px 0; font-weight: bold; color: #ff8c00;">Mariana Cataño Rodriguez</p>
-        <p style="margin: 5px 0; color: #555;">Celular: 310 457 716</p>
-        <p style="margin: 5px 0; color: #555;">Correo: <a href="mailto:marianarodriguez1509@gmail.com" style="color: #ff8c00; text-decoration: none;">marianarodriguez1509@gmail.com</a></p>
-    </section>
-
-    <footer style="text-align: center; padding: 1.5rem; color: #777; font-size: 0.8rem;">
-        <p>&copy; 2026 App Corporativa - Todos los derechos reservados</p>
+    <footer style="background-color: #382417; color: #E7C196; padding: 20px; text-align: center;">
+        <p>Soporte: Mariana Cataño Rodriguez | Cel: 310457716 | <a href="mailto:marianarodriguez1509@gmail.com" style="color: #C57938;">marianarodriguez1509@gmail.com</a></p>
     </footer>
 
 </body>
